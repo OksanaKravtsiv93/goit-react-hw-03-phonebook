@@ -41,6 +41,7 @@ export default class App extends Component {
   }
 
   addContact = newContact => {
+
     const { contacts } = this.state;
 
     contacts.some(
@@ -98,3 +99,4 @@ export default class App extends Component {
     );
   }
 }
+
